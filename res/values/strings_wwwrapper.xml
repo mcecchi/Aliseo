@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_url">http://m.comunesbt.it/EasyPark/</string>
+    <string name="app_host">m.comunesbt.it</string>
+    <string name="progress_message">Attendere prego&#8230;</string>
+    <string name="dialog_yes">Si</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_title_alert">Avviso</string>
+    <string name="dialog_title_confirm">Conferma</string>
+    <string name="dialog_title_prompt">Immissione</string>
+    <string name="dialog_title_error">Errore</string>
+    <string name="error_communication">Per usare questa applicazione è necessario un collegamento ad Internet.</string>
+    <string name="wrapper_name">NativeWrapper</string>
+    <string name="process_name">:wwwrapper</string>
+</resources>

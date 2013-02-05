@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference android:title="@string/pref_start_now" android:key="start_now"></Preference>
+	<Preference android:title="@string/pref_login_now" android:key="login_now"></Preference>
+	<Preference android:title="@string/pref_logout_now" android:key="logout_now"></Preference>
+	<PreferenceCategory android:title="@string/pref_preferences">
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="enabled"
+			android:title="@string/pref_enabled"
+			android:summary="@string/pref_enabled_summary"/>
+		<EditTextPreference
+			android:key="stringaauth"
+			android:password="false"
+			android:title="@string/pref_stringaauth"
+			android:summary="@string/pref_stringaauth_summary"/>
+		<PreferenceScreen
+			android:title="@string/pref_notify_title"
+			android:key="notify">
+			<CheckBoxPreference
+				android:key="notify_error"
+				android:title="@string/pref_notify_error"
+				android:defaultValue="true"/>
+			<CheckBoxPreference
+				android:key="notify_success"
+				android:title="@string/pref_notify_success"
+				android:defaultValue="true"/>
+			<CheckBoxPreference
+				android:key="notify_disconnect"
+				android:title="@string/pref_notify_disconnect"
+				android:defaultValue="false"/>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/pref_error_notify_title"
+			android:key="error_notify">
+			<CheckBoxPreference
+				android:key="error_notify_sound"
+				android:title="@string/pref_error_notify_sound"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+				android:key="error_notify_vibrate"
+				android:title="@string/pref_error_notify_vibrate"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+				android:key="error_notify_lights"
+				android:title="@string/pref_error_notify_lights"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+			    android:key="error_notify_toast"
+			    android:title="@string/pref_error_notify_toast"
+				android:defaultValue="false"/>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/pref_success_notify_title"
+			android:key="success_notify">
+			<CheckBoxPreference
+				android:key="success_notify_sound"
+				android:title="@string/pref_success_notify_sound"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+				android:key="success_notify_vibrate"
+				android:title="@string/pref_success_notify_vibrate"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+				android:key="success_notify_lights"
+				android:title="@string/pref_success_notify_lights"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+			    android:key="success_notify_toast"
+			    android:title="@string/pref_success_notify_toast"
+				android:defaultValue="false"/>
+		</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/pref_disconnect_notify_title"
+			android:key="disconnect_notify">
+			<CheckBoxPreference
+				android:key="disconnect_notify_sound"
+				android:title="@string/pref_disconnect_notify_sound"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+				android:key="disconnect_notify_vibrate"
+				android:title="@string/pref_disconnect_notify_vibrate"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+				android:key="disconnect_notify_lights"
+				android:title="@string/pref_disconnect_notify_lights"
+				android:defaultValue="false"/>
+			<CheckBoxPreference
+			    android:key="disconnect_notify_toast"
+			    android:title="@string/pref_disconnect_notify_toast"
+				android:defaultValue="false"/>
+		</PreferenceScreen>
+		<ListPreference
+			android:title="@string/pref_language_title"
+			android:key="language"
+			android:entries="@array/languages"
+			android:entryValues="@array/languages_values"
+			android:defaultValue="default"/>
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/pref_about">
+		<Preference
+			android:key="version" android:title="@string/app_name"
+			android:summary="@string/pref_version_summary"/>
+		<Preference
+			android:summary="@string/pref_website_summary"
+			android:key="website"
+			android:title="@string/pref_website"/>
+		<Preference
+			android:summary="@string/pref_author_summary"
+			android:key="author"
+			android:title="@string/pref_author"/>
+	</PreferenceCategory>
+</PreferenceScreen>
