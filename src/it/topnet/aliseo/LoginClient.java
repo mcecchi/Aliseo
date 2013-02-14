@@ -35,7 +35,7 @@ public class LoginClient {
     static final String TAG = "LoginClient";
     static final int CONNECTION_TIMEOUT = 3000;
     static final int SOCKET_TIMEOUT = 3000;
-    static final int RETRY_COUNT = 2;
+    static final int RETRY_COUNT = 3;
     static final int LOGIN_SUCCESSFUL = 1;
     static final int LOGIN_REFUSED = 2;
     static final int LOGIN_IOERROR = 3;
