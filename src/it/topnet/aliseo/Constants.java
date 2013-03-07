@@ -10,9 +10,9 @@ public final class Constants {
 	public static final String PING_URL = "http://www.topnet.it/check.htm";
 //  public static final String LOGIN_URL = "http://www.topnet.it/AppAndroid/AppLogin.php";
 //  public static final String LOGOUT_URL = "http://www.topnet.it/AppAndroid/Logout.php";
-	public static final String LOGIN_URL = "https://web003-nix-ap.topnet.it/App/AppLogin.php";
-	public static final String LOGOUT_URL = "https://web003-nix-ap.topnet.it/App/Logout.php";
-	public static final String CHECK_URL = "https://web003-nix-ap.topnet.it/App/check_OUT.php";
+	public static final String LOGIN_URL = "https://id.aliseo.topnet.it/AppAndroid/AppLogin.php";
+	public static final String LOGOUT_URL = "https://id.aliseo.topnet.it/AppAndroid/Logout.php";
+	public static final String CHECK_URL = "https://id.aliseo.topnet.it/AppAndroid/check_OUT.php";
 	public static final String LOGIN_SUCCESSFUL_PATTERN = "1";
 	public static final String LOGOUT_SUCCESSFUL_PATTERN = "1";
 	public static final String CHECK_SUCCESSFUL_PATTERN = "1";
